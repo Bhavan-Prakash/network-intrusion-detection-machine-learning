@@ -135,14 +135,14 @@ This method avoids introducing any false ranking between categories and allows t
 
 ### 6. Model Training
 
-After preprocessing the dataset, machine learning models were trained using the processed data.  
-The models learn patterns from the network traffic features and try to predict the correct traffic label.
+After preprocessing the dataset, machine learning model DecisionTreeClassifier was trained using the processed data.  
+The model learn patterns from the network traffic features and try to predict the correct traffic label.
 
 ---
 
 ### 7. Model Evaluation
 
-The trained model was evaluated using the test dataset that was not used during training.
+The trained model was evaluated using the train not test dataset.
 
 Common evaluation metrics include:
 
@@ -175,8 +175,8 @@ network-intrusion-detection
 ├── notebooks
 │   └── intrusion_detection.ipynb
 │
-├── data
-│   └── dataset.csv
+├── Images
+│   └── intrusion_detection.ipynb
 │
 ├── README.md
 └── requirements.txt
@@ -188,7 +188,7 @@ network-intrusion-detection
 
 Some possible improvements for this project include:
 
-- Trying more advanced machine learning models  
+- Trying more advanced machine learning models like RandomForest 
 - Handling class imbalance more carefully  
 - Hyperparameter tuning  
 - Building a real-time intrusion detection system  
