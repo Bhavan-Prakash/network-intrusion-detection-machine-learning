@@ -176,7 +176,9 @@ network-intrusion-detection
 │   └── intrusion_detection.ipynb
 │
 ├── Images
-│   └── intrusion_detection.ipynb
+│   └── Model.jpeg
+│   └── Model_Evaluation.jpeg
+│   └── Pipeline.jpeg
 │
 ├── README.md
 └── requirements.txt
